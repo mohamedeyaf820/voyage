@@ -1,3 +1,4 @@
+
 export interface Offer {
   id: string;
   title: string;
@@ -29,4 +30,14 @@ export interface SearchFilters {
   maxPrice: number;
   category: string;
   date?: string;
+  sortBy?: 'price-asc' | 'price-desc' | 'date-asc';
+}
+
+export interface Review {
+  id: string;
+  offerId: string;
+  userName: string;
+  rating: number;
+  comment: string;
+  date: string;
 }
