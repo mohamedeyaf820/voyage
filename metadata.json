@@ -1,0 +1,5 @@
+{
+  "name": "VoyageVista",
+  "description": "A comprehensive travel agency platform offering search, booking via WhatsApp, and a full admin dashboard for managing offers and requests.",
+  "requestFramePermissions": []
+}
